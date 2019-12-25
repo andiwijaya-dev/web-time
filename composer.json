@@ -1,0 +1,25 @@
+{
+    "name": "andiwijaya/web-time",
+    "description": "Simple web time for testing purpose",
+    "license": "MIT",
+    "keywords": [ "andiwijaya" ],
+    "authors": [
+        {
+            "name": "Andi Wijaya",
+            "email": "andyv4@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Andiwijaya\\WebTime\\WebTimeServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Andiwijaya\\WebTime\\": "src/"
+        }
+    }
+}
